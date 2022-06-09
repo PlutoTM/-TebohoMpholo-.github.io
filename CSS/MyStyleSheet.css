@@ -1,0 +1,258 @@
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+* {
+-webkit-transition: none !important;
+-moz-transition: none !important;
+-o-transition: none !important;
+-ms-transition: none !important;
+transition: none !important;
+}
+}
+
+
+body{
+	background-image: url("../Images/Background.png");
+	opacity: 100%;
+  background-color: white;
+  }
+  
+  .container{
+    text-align: center;  
+    background-color: #f3f3f3c2;
+    padding: 2% 2% 2% 2%;
+    margin: 5% 10% 5% 10%; 
+  }
+
+
+/* header */
+
+#header { height:100px; background:#f3f3f3c2;}
+
+#nav-container{
+    padding: 1% 2% 2% 2%;
+}
+
+#navigation { float:right; white-space:nowrap; }
+#navigation ul{ list-style-type: none; height:64px; float:left; font-family: sans-serif; font-size: 15px; font-weight: bold;}
+#navigation ul li{ float:left; display:inline; }
+#navigation ul li a{ float:left; height:50px; line-height:50px; text-decoration: none; color:#5e6172; padding:0 20px;}
+#navigation ul li a.active,
+#navigation ul li a:hover{ color:#821427; }
+
+#head-container{
+    float: right;
+    padding: 1.9% 1% 1% 1%;
+}
+#head-button{
+  width: 80px;
+	height: 30px;
+	background-color: #9495a2;
+	color: #5e6172;
+	border-radius: 0px;
+	border-style: none;
+}
+
+#button-text{
+    font-family: sans-serif; 
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+#head-button:hover{
+	background-color: #5e6172;
+}
+#button-text:hover{
+    color:#821427;
+}
+
+#logo{
+	width: 5%;
+	height: auto;
+	padding: 1% 1% 1% 10%;
+	float:left;
+}
+
+/* ~~ Footer ~~ */
+footer{
+  background-color: #09054e;
+  color: whitesmoke;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1% 0% 3% 0%;
+}
+.col1{
+  display: grid;
+  text-align: center;
+}
+.col2{
+  display: grid;
+  width: 100%;
+  text-align: center;
+}
+.col3{
+  display: grid;
+  text-align: center;
+}
+#icons{
+  width: 6%;
+}
+#icons1{
+  width: 5%;
+}
+#footerimg{
+  width: 5%;
+}
+
+#footerp{
+  color: whitesmoke;
+  background-color: #04013b;
+  text-align: center;
+  padding: 1% 0% 1% 0%;
+}
+
+h1#logo {line-height:0; width:156px; height:64px; float:left; }
+h1#logo a{ display:block; height:64px; background:url(Images/logo.png); }
+
+/* about */
+
+.img1{
+	float: right;
+	width: 300px;
+	height: auto;
+  padding: 0 0 0 2%;
+}
+
+.img2{
+	text-align: center;
+	width: 400px;
+}
+
+.img3{
+	float: left;
+	width:auto;
+  height: 90%;
+}
+
+
+.about1
+{
+  font-family: sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.about-para{
+  padding: 0 4% 0 4%;
+}
+
+.h1B
+{
+  font-family: sans-serif;
+	text-align: center;
+	color: rgba(199, 2, 199, 0.726);
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+p{
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+}
+
+/* ~~ register ~~ */
+
+#form1{
+	text-align: center;  
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 2% 2% 2% 2%;
+    margin: 5% 20% 5% 20%;
+    border-radius: 5px;
+}
+
+label{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #293a90;
+}
+
+input{
+  width: 600px;
+  height: 25px;
+  border: #ef97ce 1px solid;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  color: #293a90;
+  border: #ef97ce 1px solid;
+}
+
+button:hover{
+  background-color: #293a90;
+  color: #ef97ce;
+}
+
+
+/* ~~ contact ~~ */
+
+.contact-container{
+    text-align: center;  
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 2% 2% 2% 2%;
+    margin: 5% 20% 5% 20%;
+    border-radius: 5px;
+}
+
+
+/* store */
+
+#main { 
+	padding:10px 0 0 0; 
+	width: 100%;
+}
+
+#content { 
+	text-align: center; 
+	margin-left: 5%;
+	height: 650px;
+
+}
+
+#display{
+	text-align: center;
+}
+
+#notif{
+	text-align: center;
+}
+
+/* cart */
+
+.table{
+	margin-left: 10%;
+	width: 80%;
+}
+
+td{
+	width: 20%;
+	padding-left: 20px;
+}
+
+#tr{
+	margin-left: 10px;
+}
